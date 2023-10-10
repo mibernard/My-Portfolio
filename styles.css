@@ -160,7 +160,7 @@ section {
 #profile {
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 10rem;
   height: 80vh;
 }
 
@@ -169,6 +169,10 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+}
+
+.section__pic-container img {
+  border-radius: 4rem;
 }
 
 .section__text {
