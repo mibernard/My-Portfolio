@@ -1,8 +1,4 @@
 @media screen and (max-width: 1400px) {
-  #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
-  }
   .about-containers {
     flex-wrap: wrap;
   }
@@ -20,7 +16,11 @@
     display: flex;
   }
   #profile {
-    height: 70vh;
+    height: auto;
+  }
+
+  #experience {
+    height: auto;
   }
   #experience,
   .experience-details-container {
@@ -38,11 +38,11 @@
     height: fit-content;
   }
   section {
-    margin: 0 5%;
+    margin: 15% 10%;
   }
   .section__pic-container {
-    width: 275px;
-    height: 275px;
+    width: auto;
+    height: 400px;
     margin: 1rem auto 2rem;
     justify-content: center;
   }
@@ -54,17 +54,17 @@
 @media screen and (max-width: 600px) {
   #contact,
   footer {
-    height: 40vh;
+    height: auto;
   }
   #profile {
-    height: 75vh;
+    height: auto;
     margin-bottom: 0;
   }
   #about {
-    height: 120vh;
+    height: auto;
   }
   #experience {
-    height: 160vh;
+    height: auto;
   }
   article {
     font-size: 1rem;
@@ -103,7 +103,7 @@
   }
   .section__pic-container {
     width: auto;
-    height: 46vw;
+    height: 60vw;
     justify-content: center;
   }
   .section__text__p2 {
@@ -114,5 +114,9 @@
   }
   .text-container {
     text-align: justify;
+  }
+
+  a:hover {
+    text-underline-offset: 0.5rem;
   }
 }
