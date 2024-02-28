@@ -5,6 +5,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -282,6 +283,8 @@ section {
 .about-containers,
 .about-details-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .about-pic {
@@ -296,13 +299,30 @@ section {
 
 .details-container {
   padding: 1.5rem;
+  /* width: 30%; */
   flex: 1;
+  /* max-width: 100%; */
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
   /* justify-content: space-around; */
+}
+
+.project-container {
+  padding: 1.5rem;
+  width: 30%;
+  min-width: 20rem;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.project-container p {
+  margin-bottom: 1rem;
 }
 
 .section-container {
@@ -377,7 +397,7 @@ article .icon {
 }
 
 .project-title {
-  margin: 1rem;
+  margin-top: 1rem;
   color: black;
 }
 
